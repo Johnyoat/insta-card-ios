@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		2C9B4E20261DD57A0012CD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B4E1F261DD57A0012CD4E /* Preview Assets.xcassets */; };
 		2C9B4E2B261DD57A0012CD4E /* InstaCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B4E2A261DD57A0012CD4E /* InstaCardTests.swift */; };
 		2C9B4E36261DD57A0012CD4E /* InstaCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B4E35261DD57A0012CD4E /* InstaCardUITests.swift */; };
+		2CA218B52652F01700F0E92B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA218B42652F01700F0E92B /* CardView.swift */; };
+		3967C4DE4703466D253599B3 /* Pods_InstaCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914B26C41370D90E54AF8B1F /* Pods_InstaCard.framework */; };
+		7D335F4FE3FC219A7154CF74 /* Pods_InstaCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957DD7AB1909A757A3BDB1A9 /* Pods_InstaCardTests.framework */; };
+		C83F6AAEB165480647A153AD /* Pods_InstaCard_InstaCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBA4D94E58039EDCB922996 /* Pods_InstaCard_InstaCardUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0707563FDE8109FB23071A6B /* Pods-InstaCard-InstaCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCard-InstaCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCard-InstaCardUITests/Pods-InstaCard-InstaCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EBA4D94E58039EDCB922996 /* Pods_InstaCard_InstaCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCard_InstaCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B4E15261DD5780012CD4E /* InstaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B4E18261DD5780012CD4E /* InstaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCardApp.swift; sourceTree = "<group>"; };
 		2C9B4E1A261DD5780012CD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,14 @@
 		2C9B4E31261DD57A0012CD4E /* InstaCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B4E35261DD57A0012CD4E /* InstaCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCardUITests.swift; sourceTree = "<group>"; };
 		2C9B4E37261DD57A0012CD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA218B42652F01700F0E92B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		64BA9F98A1D9F032C92D31FB /* Pods-InstaCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCard.debug.xcconfig"; path = "Target Support Files/Pods-InstaCard/Pods-InstaCard.debug.xcconfig"; sourceTree = "<group>"; };
+		914B26C41370D90E54AF8B1F /* Pods_InstaCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957DD7AB1909A757A3BDB1A9 /* Pods_InstaCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EDD030802EEDD8EA0379E7 /* Pods-InstaCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCard.release.xcconfig"; path = "Target Support Files/Pods-InstaCard/Pods-InstaCard.release.xcconfig"; sourceTree = "<group>"; };
+		CFE78A02C648841452E8CFF9 /* Pods-InstaCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCardTests.release.xcconfig"; path = "Target Support Files/Pods-InstaCardTests/Pods-InstaCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		D47CC56F98AB28AD83CBE5A6 /* Pods-InstaCard-InstaCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCard-InstaCardUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaCard-InstaCardUITests/Pods-InstaCard-InstaCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0B9293BDDE175DCCB64528C /* Pods-InstaCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCardTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCardTests/Pods-InstaCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3967C4DE4703466D253599B3 /* Pods_InstaCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D335F4FE3FC219A7154CF74 /* Pods_InstaCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83F6AAEB165480647A153AD /* Pods_InstaCard_InstaCardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 				2C9B4E29261DD57A0012CD4E /* InstaCardTests */,
 				2C9B4E34261DD57A0012CD4E /* InstaCardUITests */,
 				2C9B4E16261DD5780012CD4E /* Products */,
+				7E760F7058EDEDC89E012226 /* Pods */,
+				D6D6D37ECF34F5A691B4AAF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +114,9 @@
 		2C9B4E17261DD5780012CD4E /* InstaCard */ = {
 			isa = PBXGroup;
 			children = (
+				2CA218B32652EFCC00F0E92B /* Controllers */,
+				2CA218B22652EFA900F0E92B /* Models */,
+				2CA218B12652EF9E00F0E92B /* Views */,
 				2C9B4E18261DD5780012CD4E /* InstaCardApp.swift */,
 				2C9B4E1A261DD5780012CD4E /* ContentView.swift */,
 				2C9B4E1C261DD57A0012CD4E /* Assets.xcassets */,
@@ -130,6 +152,51 @@
 			path = InstaCardUITests;
 			sourceTree = "<group>";
 		};
+		2CA218B12652EF9E00F0E92B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA218B42652F01700F0E92B /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CA218B22652EFA900F0E92B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CA218B32652EFCC00F0E92B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E760F7058EDEDC89E012226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9F98A1D9F032C92D31FB /* Pods-InstaCard.debug.xcconfig */,
+				B4EDD030802EEDD8EA0379E7 /* Pods-InstaCard.release.xcconfig */,
+				0707563FDE8109FB23071A6B /* Pods-InstaCard-InstaCardUITests.debug.xcconfig */,
+				D47CC56F98AB28AD83CBE5A6 /* Pods-InstaCard-InstaCardUITests.release.xcconfig */,
+				E0B9293BDDE175DCCB64528C /* Pods-InstaCardTests.debug.xcconfig */,
+				CFE78A02C648841452E8CFF9 /* Pods-InstaCardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6D6D37ECF34F5A691B4AAF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914B26C41370D90E54AF8B1F /* Pods_InstaCard.framework */,
+				1EBA4D94E58039EDCB922996 /* Pods_InstaCard_InstaCardUITests.framework */,
+				957DD7AB1909A757A3BDB1A9 /* Pods_InstaCardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C9B4E3A261DD57A0012CD4E /* Build configuration list for PBXNativeTarget "InstaCard" */;
 			buildPhases = (
+				B408A38A4CAA23D19D45C340 /* [CP] Check Pods Manifest.lock */,
 				2C9B4E11261DD5780012CD4E /* Sources */,
 				2C9B4E12261DD5780012CD4E /* Frameworks */,
 				2C9B4E13261DD5780012CD4E /* Resources */,
+				119C990798EDDC92AA7C3890 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C9B4E3D261DD57A0012CD4E /* Build configuration list for PBXNativeTarget "InstaCardTests" */;
 			buildPhases = (
+				7E9F9FAE5E6E35EFFB901123 /* [CP] Check Pods Manifest.lock */,
 				2C9B4E22261DD57A0012CD4E /* Sources */,
 				2C9B4E23261DD57A0012CD4E /* Frameworks */,
 				2C9B4E24261DD57A0012CD4E /* Resources */,
@@ -172,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C9B4E40261DD57A0012CD4E /* Build configuration list for PBXNativeTarget "InstaCardUITests" */;
 			buildPhases = (
+				86ABDF9FB8956F968A343398 /* [CP] Check Pods Manifest.lock */,
 				2C9B4E2D261DD57A0012CD4E /* Sources */,
 				2C9B4E2E261DD57A0012CD4E /* Frameworks */,
 				2C9B4E2F261DD57A0012CD4E /* Resources */,
+				BD8D445D509A74EA05B4EB52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +326,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119C990798EDDC92AA7C3890 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCard/Pods-InstaCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCard/Pods-InstaCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaCard/Pods-InstaCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9F9FAE5E6E35EFFB901123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86ABDF9FB8956F968A343398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCard-InstaCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B408A38A4CAA23D19D45C340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8D445D509A74EA05B4EB52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCard-InstaCardUITests/Pods-InstaCard-InstaCardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCard-InstaCardUITests/Pods-InstaCard-InstaCardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaCard-InstaCardUITests/Pods-InstaCard-InstaCardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C9B4E11261DD5780012CD4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C9B4E1B261DD5780012CD4E /* ContentView.swift in Sources */,
+				2CA218B52652F01700F0E92B /* CardView.swift in Sources */,
 				2C9B4E19261DD5780012CD4E /* InstaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +590,7 @@
 		};
 		2C9B4E3B261DD57A0012CD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BA9F98A1D9F032C92D31FB /* Pods-InstaCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +612,7 @@
 		};
 		2C9B4E3C261DD57A0012CD4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EDD030802EEDD8EA0379E7 /* Pods-InstaCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +634,7 @@
 		};
 		2C9B4E3E261DD57A0012CD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B9293BDDE175DCCB64528C /* Pods-InstaCardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +656,7 @@
 		};
 		2C9B4E3F261DD57A0012CD4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE78A02C648841452E8CFF9 /* Pods-InstaCardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +678,7 @@
 		};
 		2C9B4E41261DD57A0012CD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0707563FDE8109FB23071A6B /* Pods-InstaCard-InstaCardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +698,7 @@
 		};
 		2C9B4E42261DD57A0012CD4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47CC56F98AB28AD83CBE5A6 /* Pods-InstaCard-InstaCardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
